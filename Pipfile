@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bokeh = "*"
+"jinja2" = "*"
+pyulog = "*"
+simplekml = "*"
+scipy = "*"
+cython = "*"
+pyfftw = "*"
+pylint = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.4"
